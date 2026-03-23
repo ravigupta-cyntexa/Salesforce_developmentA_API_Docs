@@ -58,3 +58,4 @@ global class createStudentApi {
 ### route will be (/services/apexrest/createStudent)
 ```
 ```
+<img width="1253" height="489" alt="Image" src="https://github.com/user-attachments/assets/01ac6ce2-0052-4666-89ec-8e17f5dd4806" />
