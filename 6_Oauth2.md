@@ -29,3 +29,12 @@ https://orgfarm-6a4e00e053-dev-ed.develop.my.salesforce.com/services/oauth2/auth
 ```
 
 ## step3 Now Hit that Api Url in browser
+
+### click on Allow
+### you will redirect to url like see below 
+```
+https://cyntexa.com/?code=aPrxhi6Gmsfyknmy2S4fWmSDVVRfw5BV4Eg_QrNWWbMtaYvSSgBhftLoHh6P8rRTDLJPupg6vkV43fzmIM9oMAAJuNrpLYw%3D
+```
+
+## inside this you can see the code clerly
+### copy that code 
