@@ -16,7 +16,11 @@
 ## step4 click on Verify Number and Enter Your code that come on that Number 
 
 ## step 5 Now we can buy the Number from which we send the sms 
+
+#### Kindly buy the numeber on ehich sms is available
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/511e417e-dc17-458c-bd8b-bcf00b173655" />
 
+
+### step6 I
 
 
