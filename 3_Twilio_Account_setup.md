@@ -21,6 +21,16 @@
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/511e417e-dc17-458c-bd8b-bcf00b173655" />
 
 
-### step6 I
+### step6 Click on Messaging on Navbar
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6607622f-b307-4f19-a346-56460571cc88" />
+
+### scroll 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e313a588-dc5b-4e72-a7d2-f201e3cbc813" />
+
+### step 7 click on (Send your first SMS using code)
+
+<img width="1102" height="949" alt="Image" src="https://github.com/user-attachments/assets/6cb4f03c-9e20-4ff3-af24-f5a941c8b6e2" />
+
+
 
 
