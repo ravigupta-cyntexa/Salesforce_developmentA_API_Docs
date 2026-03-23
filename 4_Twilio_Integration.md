@@ -56,3 +56,6 @@ From will be the Your active Number
 To will be the you verified called ID Number of anyone 
 
 <img width="775" height="164" alt="Image" src="https://github.com/user-attachments/assets/c0e69e35-e26d-4b67-9b7c-e470c5842f23" />
+
+## step 6- send api calll
+    -> Important thing after send you will inside Header the Authentication Basic token will be set automatically 
