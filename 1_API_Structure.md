@@ -13,5 +13,12 @@ global class createStudentApi {
 
         /// send the response 
     }
+
+
+   
+    @HttpGet
+    global static String myMethod2(){
+        return 'I am get method';
+    }
 }
 ```
