@@ -22,7 +22,7 @@ instanceUrl+ /services/oauth2/authorize?client_id=consumerKey&client_secret=cons
 ```
 https://orgfarm-6a4e00e053-dev-ed.develop.my.salesforce.com/services/oauth2/authorize
 ?response_type=code
-&client_id=3MVG9dAEux2v1sLtBiUzgKX_jZlixXJvtv4NGKyniao8cv3hP9p7EgamLGPVSwm.5ngKrEbNYfMghPNdljmWw
+&client_id=3MVG9dAEux2v1sLtBiUzgKX_jZlixXJvtv4NGKyniao8cv3hP9p7EgamLGPVSw******************8&client_secret=AEF224C27270D980F1A4******************0757C59BFB07C44DC35C9EAEF
 &redirect_uri=https://cyntexa.com
 &code_challenge=ql0Arf5B4VZ8nK7jL9k2ZpTQn7QmW6XxYzExample
 &code_challenge_method=S256
