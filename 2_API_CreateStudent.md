@@ -36,19 +36,43 @@ global class createStudentApi {
         
         
          
-        insert std;
-        
-        
+         // insert std;
+         Database.saveResult sr=Database.insert(std,false);
+         
+         
+         
+        /// creating response 
+         Map<String,Object>resultMap=new Map<String,Object>();
+         if(sr.isSuccess()){
+             resultMap.put('Status','Success');
+             resultMap.put('Id',sr.getId());
+             resultMap.put('Name',std.Student_Name__c);
+             
+         }else{
+             List<Database.Error>er=sr.getErrors();
+             String error='';
+             for(Database.Error err:er){
+                 error+=err.getMessage();
+             }
+             resultMap.put('Status','Error');
+             resultMap.put('Message',error);
+         }
         /// send the response 
-        return 'Record is created successfully'+'Student Id is '+ std.id;
+        // converting mapped res structure into string
+        String jsonString=JSON.serialize(resultMap);
+        return jsonString;
+       //  return 'Record is created successfully'+'Student Id is '+ std.id;
             
       }catch(Exception e){
             return e.getMessage();
       }
-       
-        
-        
-        
+           
+    }
+    
+    
+    @HttpGet
+    global static String myMethod2(){
+        return 'I am get method';
     }
 }
 ```
