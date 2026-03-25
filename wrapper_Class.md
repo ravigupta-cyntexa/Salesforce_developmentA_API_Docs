@@ -93,7 +93,6 @@ we have a JsonString
 ```
 String jsonString='{\n    \"distance\" : 0,\n    \"emailAddress\" : \"address@email.com\",\n    \"firstName\" : \"Arpit\",\n    \"headLine\" : \"The World News\",\n    \"lastName\" : \"Gupta\",\n    \"pictureURL\" : \"https://www.nylas.com/wp-content/uploads/JSON_Blog_Hero.png\",\n    \"positions\" : {\n        \"total\" : 1,\n        \"values\" : [\n            {\n                \"company\" : {\n                    \"id\" : 451259,\n                    \"industry\" : \"Information Technology & Services\",\n                    \"name\" : \"Tesla Inc.\",\n                    \"size\" : \"1200+\",\n                    \"ticker\" : \"TLA78541PU9\",\n                    \"type\" : \"Public Domain\"\n                },\n                \"id\" : 54123659,\n                \"isCurrent\": true,\n                \"location\" : {\n                    \"latitude\" : \"48.856613\",\n                    \"longitude\" : \"2.352222\"\n                },\n                \"title\" : \"Engineer Department\"\n            }\n        ]\n    },\n    \"publicProfileURL\" : \"https://www.zip.com/9875/usad\"\n}';
 wrapperForJson wfj=(wrapperForJson)JSON.deserialize(jsonString,wrapperForJson.class);
-// companyClass cc=new companyClass();
 
 System.debug(wfj.positions.values[0].company.industry);
 ```
